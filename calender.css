@@ -1,0 +1,32 @@
+#calendar {
+    text-align: center;
+    padding: 10px;
+}
+
+#calendar table {
+    margin: 0 auto;
+}
+
+#calendar td {
+    padding: 10px;
+    text-align: center;
+}
+
+#calendar td.active {
+    background-color: green;
+}
+
+#calendar td.inactive {
+    background-color: white;
+}
+
+#month, #year {
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#date {
+    margin: 10px;
+}
